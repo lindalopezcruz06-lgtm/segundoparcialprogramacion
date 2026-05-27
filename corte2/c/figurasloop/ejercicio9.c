@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main() {
     int fila = 1;
     int columna;
