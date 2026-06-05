@@ -1,0 +1,7 @@
+La cadena de bits 11111111 representa una cantidad fija de energía o estados lógicos en memoria, pero su significado numérico final depende estrictamente del tipo de dato que usemos para leerla:Sin signo (uint8_t): 
+
+Todos los bits tienen un peso positivo (\(128+64+32+16+8+4+2+1\)). Por lo tanto, la suma total de sus posiciones da como resultado el valor 255.Con signo (int8_t): 
+
+El bit más a la izquierda (el bit de mayor peso) se interpreta como el signo numérico en complemento a dos, teniendo un peso negativo de \(-128\). 
+
+Al sumar el resto de las posiciones (\(-128 + 64 + 32 + 16 + 8 + 4 + 2 + 1\)), el resultado matemático final es -1.
